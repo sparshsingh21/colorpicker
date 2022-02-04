@@ -11,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     font-family: 'Quicksand', sans-serif;
     position: relative;
     padding: 2em;
@@ -46,13 +46,16 @@ input[type="color"] {
 }
 
 .container{
-    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 span {
     color: #fff;
     display: block;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 20px;
     text-shadow: 0 5px 10px #000;
